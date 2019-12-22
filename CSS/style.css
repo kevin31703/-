@@ -1,0 +1,1697 @@
+@media screen and (max-width:1920px){
+  html{
+    box-sizing:border-box;
+    width:100vw;
+    height:225vw;
+    background-color: #BCCBAD;
+}
+
+body{
+    width: 100%;
+    height:100%;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+  }
+  
+  .concert{
+    width: 100vw;
+    top:-18.6vw;
+    position: relative;
+  }
+  .concert div {
+    position: absolute;
+    z-index:0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-animation: round 20s linear infinite;
+            animation: round 20s linear infinite;
+  }
+  
+  @-webkit-keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+  }
+  @keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+  }
+  
+  .concert div:nth-child(4) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+  }
+  
+  .concert div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+  }
+  
+  .concert div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+  }
+  
+  .concert div:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  
+.cover1{
+    position: relative;
+    top:-1vw;
+    left:-1vw;
+    width: 100vw;
+    opacity: 0;
+    z-index: 0;
+    margin:auto;
+}
+
+.title{
+    position: relative;
+    font-family:Adobe Garamond Pro;
+    z-index: 1;
+    color:#FFFFFF;
+}
+
+.wood{
+    font-size: 7.55vw;
+    margin-top:-24.8vw; 
+    margin-left:36.6vw;
+}
+
+.crowfoot{
+    font-size: 4.17vw;
+    margin-top:-2.6vw; 
+    margin-left:46.03125vw;
+}
+
+.CoverSquare{
+    position: relative;
+    border:0.26vw #FFFFFF solid;
+    height: 31.51vw;
+    width: 95vw;   
+    margin-top:-21.5vw; 
+    margin-left:1.5vw;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    list-style-type: none;
+    margin-left:4.375vw;
+    margin-top:3.34vw;
+  }
+
+ .boxword{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    padding-top:2vw;
+    padding-right:7.55208vw;
+  }
+
+  .menu{
+    opacity: 0;
+  }
+
+  .iconbox{
+    margin-top:-1.9vw; 
+    margin-right:5vw;  
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    position: relative;
+    z-index:2;
+    top:-1vw;
+  }
+  
+  .fb{
+    width:1.71875vw;
+    height:1.71875vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .ig{
+    width:1.71875vw;
+    height:1.71875vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .tt{
+    width:1.71875vw;
+    height:1.71875vw;
+  }
+
+  .product{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    margin-top: 6.5104vw;
+    margin-left:4.3229vw;
+  }
+
+  .product1{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      left:4.375vw;
+      top:2.5vw;
+  }
+
+  .product2{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      left:6.375vw;
+      top:2.5vw;
+  }
+
+  .product3{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:2.5vw;
+      left:8.375vw;
+  }
+
+  .product4{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:4vw;
+      left:4.375vw;
+  }
+
+  .product5{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:4vw;
+      left:6.375vw;
+  }
+
+  .product6{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:4vw;
+      left:8.375vw;
+  }
+
+  .product1se{
+    opacity: 0;
+  }
+  .product2se{
+    opacity: 0;
+  }
+  .product3se{
+    opacity: 0;
+  }
+  .product4se{
+    opacity: 0;
+  }
+  .product5se{
+    opacity: 0;
+  }
+  .product6se{
+    opacity: 0;
+  }
+
+  .gallery{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    margin-top: 3.8541vw;
+    margin-left:4.3229vw;
+  }
+
+  .middle{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    position: relative;
+    margin-top:2.1875vw;
+    z-index:2;
+  }
+
+  .gallery1{
+    position: relative;
+      width:  43.5416vw;
+      height:  43.5416vw;
+      margin-left:4.375vw;
+  }
+
+  .gallery2{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.9791vw;
+  }
+
+  .gallery3{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.9791vw;
+      margin-top:1.875vw;
+  }
+
+  .gallery4{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.875vw;
+  }
+
+  .gallery5{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.875vw;
+      margin-top:1.875vw;
+  }
+
+  .gallery1se{
+    opacity: 0;
+  }
+  
+  .leftse{
+    opacity: 0;
+  }
+
+  .rightse{
+    opacity: 0;
+  }
+
+  .order{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    margin-top: 4.167vw;
+    margin-left:4.3229vw;
+  }
+
+  .OrderSquare{
+    position: relative;
+    width:91.25vw;
+    height:46.30208vw;
+    background-color: #EDF0D3;
+    border-radius: 3.59375vw;
+    top:2.5vw;
+    left:4.375vw;
+    z-index: 0;
+  }
+
+  .name{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: 4.62708vw;
+    left: 4.1667vw;
+  }
+
+  .tpname {
+    position: relative;
+    width:33.79vw;
+    height: 4.4270vw;
+    top:1.5vw;
+    left:9.427vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw; }
+
+  .tel{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: -1.5vw;
+    left :45.677vw;
+  }
+
+  .tptel {
+    position: relative;
+    width:38.28125vw;
+    height: 4.4270vw;
+    top:-4.6vw;
+    left:48.8020vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw; }
+  
+  .email{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: 0vw;
+    left: 3.8vw;
+  }
+
+  .tpem {
+    position: relative;
+    width:77.864583vw;
+    height: 4.4270vw;
+    top:-3.1vw;
+    left:9.427vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw; }
+    
+  .require{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: 8.6vw;
+    left: 2.8vw;
+    z-index: 2;
+  }
+
+  .tprq {
+    position: relative;
+    width:77.864583vw;
+    height: 21.61458vw;
+    top:-3.1vw;
+    left:9.427vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw;  }
+    
+  .submit {
+    position: relative;
+    width:15.3645vw;
+    height: 4.42708vw;
+    background:#7BA23F; 
+    color: #FFFAB9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.4583vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius:0.677083vw; 
+    -webkit-radius:0.677083vw;
+    left:71.71875vw;
+    top:-1.5vw;
+  }
+
+  footer{
+    position: relative;
+    width:100vw;
+    height: 14.895833vw;
+    top:7.29166vw;
+    z-index: 0;
+    background-color: #104717;
+  }
+
+  .ftwood{
+    position: relative;
+    color: #FFFFFF;
+    font-family: Adobe Garamond Pro;
+    font-weight: bold;
+    font-size: 2.91666vw;
+    left:2.03125vw;
+    top:5.3125vw;
+  }
+
+  .ftcrowfoot{
+    position: relative;
+    color: #FFFFFF;
+    font-family: Adobe Garamond Pro;
+    font-weight: bold;
+    font-size: 1.6145833vw;
+    left:5.3125vw;
+    top:4.5vw;
+  }
+
+  .copyright{
+    position: relative;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 0.78125vw;
+    left:2.03125vw;
+    top:7vw;
+  }
+
+  .ftbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style-type: none;
+    right:10.833vw;
+    top:-5vw;
+  }
+
+  .ftboxword{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    padding-left:9.114583vw;
+  }
+
+  .ftproduct{
+    position: relative;
+    top:-4.8vw;
+    left:3.4vw;
+    font-family: Arial;
+    color: #FFFAB9;
+    font-size: 1.0416vw;
+    line-height: 1.8vw;
+    text-align: center;
+  }
+
+  .ftqa{
+    position: relative;
+    top:-15.4vw;
+    left:18.2vw;
+    font-family: Arial;
+    color: #FFFAB9;
+    font-size: 1.0416vw;
+    line-height: 1.8vw;
+    text-align: center;
+  }
+
+  .ftcontact{
+    position: relative;
+    top:-21vw;
+    left:34.2vw;
+    font-family: Arial;
+    color: #FFFAB9;
+    font-size: 1.0416vw;
+    line-height: 2.5vw;
+    text-align: center;
+  }
+
+  .fticonbox{
+    position: relative;
+    top:-17.5vw;
+    right:10vw;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    z-index:2;
+  }
+  
+  .ftfb{
+    width:1.71875vw;
+    height:1.71875vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .ftig{
+    width:1.71875vw;
+    height:1.71875vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .fttt{
+    width:1.71875vw;
+    height:1.71875vw;
+  }
+
+  .cp{
+    position: relative;
+    top:-100vw;
+  opacity: 0;
+}
+  .line1{
+    position: relative;
+    top:-100vw;
+    opacity: 0;
+  }
+
+  .line2{
+    position: relative;
+    top:-100vw;
+    opacity: 0;
+  }
+
+}
+@media screen and (max-width:768px){
+  html{
+    box-sizing:border-box;
+    width:100vw;
+    height:225vw;
+    background-color: #BCCBAD;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+  }
+  
+  .concert{
+    width: 100vw;
+    top:-18.6vw;
+    position: relative;
+  }
+  .concert div {
+    position: absolute;
+    z-index:0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-animation: round 20s linear infinite;
+            animation: round 20s linear infinite;
+  }
+  
+  @-webkit-keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+  }
+  @keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+  }
+  
+  .concert div:nth-child(4) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+  }
+  
+  .concert div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+  }
+  
+  .concert div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+  }
+  
+  .concert div:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  
+.cover1{
+    position: relative;
+    top:-1vw;
+    left:-1vw;
+    width: 100vw;
+    opacity: 0;
+    z-index: 0;
+    margin:auto;
+}
+
+.title{
+    position: relative;
+    font-family:Adobe Garamond Pro;
+    z-index: 1;
+    color:#FFFFFF;
+}
+
+.wood{
+    font-size: 7.55vw;
+    margin-top:-24.8vw; 
+    margin-left:36.6vw;
+}
+
+.crowfoot{
+    font-size: 4.17vw;
+    margin-top:-2.6vw; 
+    margin-left:46.03125vw;
+}
+
+.CoverSquare{
+    position: relative;
+    border:0.26vw #FFFFFF solid;
+    height: 31.51vw;
+    width: 96vw;   
+    margin-top:-21.5vw; 
+    margin-left:1.7vw;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    list-style-type: none;
+    margin-left:4.375vw;
+    margin-top:3.34vw;
+  }
+
+ .boxword{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    padding-top:2vw;
+    padding-right:7.55208vw;
+  }
+
+  .menu{
+    opacity: 0;
+  }
+
+  .iconbox{
+    margin-top:-1.9vw; 
+    margin-right:5vw;  
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    position: relative;
+    z-index:2;
+    top:-2.2vw;
+  }
+  
+  .fb{
+    width:1.71875vw;
+    height:1.71875vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .ig{
+    width:1.71875vw;
+    height:1.71875vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .tt{
+    width:1.71875vw;
+    height:1.71875vw;
+  }
+
+  .product{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    margin-top: 6.5104vw;
+    margin-left:4.3229vw;
+  }
+
+  .product2{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      left:6.375vw;
+      top:2.5vw;
+  }
+
+  .product3{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:2.5vw;
+      left:8.375vw;
+  }
+
+  .product4{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:4vw;
+      left:4.375vw;
+  }
+
+  .product5{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:4vw;
+      left:6.375vw;
+  }
+
+  .product6{
+    position: relative;
+      width:29.166vw;
+      height:29.166vw;
+      top:4vw;
+      left:8.375vw;
+  }
+
+  .product1se{
+    opacity: 0;
+  }
+  .product2se{
+    opacity: 0;
+  }
+  .product3se{
+    opacity: 0;
+  }
+  .product4se{
+    opacity: 0;
+  }
+  .product5se{
+    opacity: 0;
+  }
+  .product6se{
+    opacity: 0;
+  }
+
+  .gallery{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    position: relative;
+    top: -40vw;
+    left: 0vw;
+  }
+
+  .middle{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    position: relative;
+    top:-38vw;
+    z-index:2;
+  }
+
+  .gallery1{
+    position: relative;
+      width:  43.5416vw;
+      height:  43.5416vw;
+      margin-left:4.375vw;
+  }
+
+  .gallery2{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.9791vw;
+  }
+
+  .gallery3{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.9791vw;
+      margin-top:1.875vw;
+  }
+
+  .gallery4{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.875vw;
+  }
+
+  .gallery5{
+    position: relative;
+    width:  20.9375vw;
+    height:  20.9375vw;
+      margin-left:1.875vw;
+      margin-top:1.875vw;
+  }
+
+  .gallery1se{
+    opacity: 0;
+  }
+
+  .leftse{
+    opacity: 0;
+  }
+
+  .rightse{
+    opacity: 0;
+  }
+
+  .order{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    position: relative;
+    top: -63vw;
+    left:0vw;
+  }
+
+  .OrderSquare{
+    position: relative;
+    width:91.25vw;
+    height:46.30208vw;
+    background-color: #EDF0D3;
+    border-radius: 3.59375vw;
+    top:-60vw;
+    left:4.375vw;
+    z-index: 0;
+  }
+
+  .name{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: 4.62708vw;
+    left: 4.1667vw;
+  }
+
+  .tpname {
+    position: relative;
+    width:33.79vw;
+    height: 4.4270vw;
+    top:1.5vw;
+    left:9.427vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw; }
+
+  .tel{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: -1.5vw;
+    left :45.677vw;
+  }
+
+  .tptel {
+    position: relative;
+    width:38.28125vw;
+    height: 4.4270vw;
+    top:-4.6vw;
+    left:48.8020vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw; }
+  
+  .email{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: 0vw;
+    left: 3.8vw;
+  }
+
+  .tpem {
+    position: relative;
+    width:77.864583vw;
+    height: 4.4270vw;
+    top:-3.1vw;
+    left:9.427vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw; }
+    
+  .require{
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    color: #104717;
+    font-size: 1.45833vw;
+    top: 8.6vw;
+    left: 2.8vw;
+    z-index: 2;
+  }
+
+  .tprq {
+    position: relative;
+    width:77.864583vw;
+    height: 21.61458vw;
+    top:-3.1vw;
+    left:9.427vw;
+    padding-left:1vw;
+    background:#FFFFFF;
+    font-size: 1.45833vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 0.677vw;  }
+    
+  .submit {
+    position: relative;
+    width:15.3645vw;
+    height: 4.42708vw;
+    background:#7BA23F; 
+    color: #FFFAB9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.4583vw;
+    border:0 none;
+    cursor:pointer;
+    border-radius:0.677083vw; 
+    -webkit-radius:0.677083vw;
+    left:71.71875vw;
+    top:-1.5vw;
+  }
+
+  footer{
+    position: relative;
+    width:100vw;
+    height: 23.828125vw;
+    top:-55vw;
+    z-index: 0;
+    background-color: #104717;
+  }
+
+  .ftwood{
+    position: relative;
+    color: #FFFFFF;
+    font-family: Adobe Garamond Pro;
+    font-weight: bold;
+    font-size: 3.90625vw;
+    left:2.5vw;
+    top:7vw;
+  }
+
+  .ftcrowfoot{
+    position: relative;
+    color: #FFFFFF;
+    font-family: Adobe Garamond Pro;
+    font-weight: bold;
+    font-size: 2.2135vw;
+    left:6.8vw;
+    top:6vw;
+  }
+
+  .copyright{
+    position: relative;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 1.0416vw;
+    left:2.03125vw;
+    top:13vw;
+  }
+
+  .ftbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style-type: none;
+    right:10.833vw;
+    top:-7.5vw;
+  }
+
+  .ftboxword{
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5625vw;
+    padding-left:11vw;
+  }
+
+  .ftproduct{
+    position: relative;
+    top:-7vw;
+    left:-0.3vw;
+    font-family: Arial;
+    color: #FFFAB9;
+    font-size: 1.0416vw;
+    line-height: 2.5vw;
+    text-align: center;
+  }
+
+  .ftqa{
+    position: relative;
+    top:-21.7vw;
+    left:16.3vw;
+    font-family: Arial;
+    color: #FFFAB9;
+    font-size: 1.0416vw;
+    line-height: 2.5vw;
+    text-align: center;
+  }
+
+  .ftcontact{
+    position: relative;
+    top:-29.3vw;
+    left:33.8vw;
+    font-family: Arial;
+    color: #FFFAB9;
+    font-size: 1vw;
+    line-height: 3vw;
+    text-align: center;
+  }
+
+  .fticonbox{
+    position: relative;
+    top:-20vw;
+    right:10vw;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    z-index:2;
+  }
+  
+  .ftfb{
+    width:2.2135vw;
+    height:2.2135vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .ftig{
+    width:2.2135vw;
+    height:2.2135vw;
+    margin-right: 3.17708vw;
+  }
+  
+  .fttt{
+    width:2.2135vw;
+    height:2.2135vw;
+  }
+
+  .cp{
+    opacity: 0;
+  }
+
+  .line1{
+    opacity: 0;
+  }
+
+  .line2{
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width:320px){
+  html{
+    box-sizing:border-box;
+    width:100vw;
+    height:100vw;
+    background-color: #BCCBAD;
+}
+
+body{
+    width: 100%;
+    height:100vw;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+  }
+  
+  .concert{
+    width: 100vw;
+    top:-18.6vw;
+    position: relative;
+  }
+  .concert div {
+    position: absolute;
+    z-index:0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-animation: round 20s linear infinite;
+            animation: round 20s linear infinite;
+  }
+  
+  @-webkit-keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+  }
+  @keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+  }
+  
+  .concert div:nth-child(4) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+  }
+  
+  .concert div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+  }
+  
+  .concert div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+  }
+  
+  .concert div:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  
+.cover1{
+    position: relative;
+    top:-1vw;
+    left:-1vw;
+    width: 100vw;
+    opacity: 0;
+    z-index: 0;
+    margin:auto;
+}
+
+.title{
+    position: relative;
+    font-family:Adobe Garamond Pro;
+    z-index: 1;
+    color:#FFFFFF;
+}
+
+.wood{
+    font-size: 7.55vw;
+    margin-top:-24.8vw; 
+    margin-left:36.6vw;
+}
+
+.crowfoot{
+    font-size: 4.17vw;
+    margin-top:-2.6vw; 
+    margin-left:46.03125vw;
+}
+
+.CoverSquare{
+    position: relative;
+    border:0.26vw #FFFFFF solid;
+    height: 31.51vw;
+    width: 96vw;   
+    margin-top:-22.5vw; 
+    margin-left:1.5vw;
+}
+
+.iconbox{
+  margin-top:-1.9vw; 
+  margin-right:5vw;  
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  position: relative;
+  top:-48vw;
+  z-index:2;
+}
+
+.fb{
+  width:5.3125vw;
+  height:5.3125vw;
+  margin-right: 3.17708vw;
+}
+
+.ig{
+  width:5.3125vw;
+  height:5.3125vw;
+  margin-right: 3.17708vw;
+}
+
+.tt{
+  width:5.3125vw;
+  height:5.3125vw;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  list-style-type: none;
+  margin-left:4.375vw;
+  margin-top:3.34vw;
+  opacity: 0;
+}
+
+.boxword{
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 1.5625vw;
+  padding-top:2vw;
+  padding-right:7.55208vw;
+}
+
+.menu{
+  position: relative;
+  opacity: 1;
+  left:4.0625vw;
+  top:-8vw;
+}
+
+.product{
+  position: relative;
+  top:-16vw;
+}
+
+.product1{
+  opacity: 0;
+}
+.product2{
+  opacity: 0;
+}
+.product3{
+  opacity: 0;
+}
+.product4{
+  opacity: 0;
+}
+.product5{
+  opacity: 0;
+}
+.product6{
+  opacity: 0;
+}
+
+.product1se{
+  opacity: 1;
+  position: relative;
+  width:50vw;
+  height:50vw;
+  top:-70vw;
+  left:0vw;
+}
+.product2se{
+  opacity: 1;
+  position: relative;
+  width:50vw;
+  height:50vw;
+  top:-121.5vw;
+  left:50vw;
+}
+.product3se{
+  opacity: 1;
+  position: relative;
+  width:50vw;
+  height:50vw;
+  top:-123vw;
+  left:0vw;
+}
+.product4se{
+  opacity: 1;
+  position: relative;
+  width:50vw;
+  height:50vw;
+  top:-174vw;
+  left:50vw;
+}
+.product5se{
+  opacity: 1;
+  position: relative;
+  width:50vw;
+  height:50vw;
+  top:-175.2vw;
+  left:0vw;
+}
+.product6se{
+  opacity: 1;
+  position: relative;
+  width:50vw;
+  height:50vw;
+  top:-226.5vw;
+  left:50vw;
+}
+.gallery{
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 1.5625vw;
+  position: relative;
+  top: -224vw;
+  left: 0vw;
+}
+
+.middle{
+  opacity: 0;
+}
+
+.gallery1{
+  opacity: 0;
+}
+
+.gallery2{
+  opacity: 0;
+}
+
+.gallery3{
+  opacity: 0;
+}
+
+.gallery4{
+  opacity: 0;
+}
+
+.gallery5{
+  opacity: 0;
+}
+
+.gallery1se{
+  opacity: 1;
+  position: relative;
+  top: -265vw;
+}
+
+.order{
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 1.5625vw;
+  position: relative;
+  top: -265vw;
+  left:0vw;
+}
+
+.OrderSquare{
+  position: relative;
+  width:91.875vw;
+  height:100vw;
+  background-color: #EDF0D3;
+  border-radius: 3.59375vw;
+  top:-260vw;
+  left:4.375vw;
+  z-index: 0;
+}
+
+.name{
+  position: relative;
+  font-family: Arial;
+  font-weight: bold;
+  color: #104717;
+  font-size: 4.0625vw;
+  top: 6.62708vw;
+  left: 4vw;
+}
+
+.tpname {
+  position: relative;
+  width:70vw;
+  height: 7.5vw;
+  top:0.445vw;
+  left:16.5vw;
+  padding-left:1vw;
+  background:#FFFFFF;
+  font-size: 1.45833vw;
+  border:0 none;
+  cursor:pointer;
+  border-radius: 1.875vw; }
+
+.tel{
+  position: relative;
+  font-family: Arial;
+  font-weight: bold;
+  color: #104717;
+  font-size: 4.0625vw;
+  top: 6.1vw;
+  left :6.8vw;
+}
+
+.tptel {
+  position: relative;
+  width:70vw;
+  height: 7.5vw;
+  top:0vw;
+  left:16.5vw;
+  padding-left:1vw;
+  background:#FFFFFF;
+  font-size: 1.45833vw;
+  border:0 none;
+  cursor:pointer;
+  border-radius: 1.875vw; }
+
+.email{
+  position: relative;
+  font-family: Arial;
+  font-weight: bold;
+  color: #104717;
+  font-size: 4.0625vw;
+  top: 6.1vw;
+  left: 3vw;
+}
+
+.tpem {
+  position: relative;
+  width:70vw;
+  height: 7.5vw;
+  top:0vw;
+  left:16.5vw;
+  padding-left:1vw;
+  background:#FFFFFF;
+  font-size: 1.45833vw;
+  border:0 none;
+  cursor:pointer;
+  border-radius: 1.875vw; }
+  
+.require{
+  position: relative;
+  font-family: Arial;
+  font-weight: bold;
+  color: #104717;
+  font-size: 3.8vw;
+  top: 21.5vw;
+  left: 1.5vw;
+}
+
+.tprq {
+  position: relative;
+  width:70vw;
+  height: 38.75vw;
+  top:0vw;
+  left:16.5vw;
+  padding-left:1vw;
+  background:#FFFFFF;
+  font-size: 1.45833vw;
+  border:0 none;
+  cursor:pointer;
+  border-radius: 1.875vw;   }
+  
+.submit {
+  position: relative;
+  width:84.375vw;
+  height:13.4375vw;
+  background:#7BA23F; 
+  color: #FFFAB9;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1.4583vw;
+  border:0 none;
+  cursor:pointer;
+  border-radius:2.8125vw; 
+  -webkit-radius:2.8125vw;
+  left:3.8vw;
+  top:3vw;
+}
+
+footer{
+  position: relative;
+  width:100vw;
+  height: 23.828125vw;
+  top:-250vw;
+  z-index: 0;
+  background-color: #BCCBAD;
+}
+
+.ftwood{
+  opacity: 0;
+}
+
+.ftcrowfoot{
+  opacity: 0;
+}
+
+.copyright{
+  opacity: 0;
+}
+
+.ftbox{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  list-style-type: none;
+  text-align: center;
+  width:111vw;
+  background-color: #104717;
+
+}
+
+.ftboxword{
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFFAB9;
+  font-size:4.6875vw;
+  padding-left:11vw;
+  padding-top:4vw;
+  padding-bottom:4vw;
+  z-index: 2;
+}
+
+
+
+.line1{
+  opacity: 1;
+  position: relative;
+  top:-34vw;
+  height: 0.625vw;
+  width:100%;
+  background-color: #707070;
+  z-index: 2;
+}
+
+.line2{
+    opacity: 1;
+  position: relative;
+  top:-22vw;
+  height: 0.625vw;
+  width:100%;
+  background-color: #707070;
+  z-index: 2;
+}
+
+.ftproduct{
+  opacity: 0;
+}
+
+.ftqa{
+  opacity: 0;
+}
+
+.ftcontact{
+  position: relative;
+  top:-33vw;
+  left:0vw;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 3.125vw;
+  line-height: 10vw;
+  text-align: center;
+  z-index: 2;
+}
+
+.cp{
+  opacity: 1;
+  position: relative;
+  top:-70vw;
+  left:23vw;
+}
+
+.line3{
+  opacity: 1;
+  position: relative;
+  top:15vw;
+  height: 0.625vw;
+  width:100%;
+  background-color: #707070;
+  z-index: 2;
+}
+
+.square{
+  opacity: 1;
+  position: relative;
+  top:-60vw;
+  width:100vw;
+  height:40vw;
+  background-color: #104717;
+  z-index: 0;
+}
+
+.fticonbox{
+  opacity: 0;
+}
+
+}  
